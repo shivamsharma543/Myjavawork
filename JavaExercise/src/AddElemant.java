@@ -12,6 +12,7 @@ public class AddElemant {
 			System.out.println(iterator.next());
 	}
 	
+	   
 	
 }
 	

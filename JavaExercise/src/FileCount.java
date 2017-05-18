@@ -21,6 +21,7 @@ public class FileCount {
 		 System.out.println(filecount.findString());
        
 	}
+	
     public Map<String,List<Integer>> findString() {
     	List<Integer>ls=new ArrayList<Integer>();
     	Map<String,List<Integer>> map=new HashMap<String,List<Integer>>();

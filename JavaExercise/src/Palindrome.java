@@ -6,3 +6,4 @@ public class Palindrome {
         	   System.out.println(str.equals(str1));
 		}
 }
+

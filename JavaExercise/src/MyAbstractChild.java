@@ -9,5 +9,6 @@ public class MyAbstractChild extends MyAbstract {
 	}
 	
 	
+	
 
 }
