@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Arrays;
+
 
 public class ListToArray {
     String name=" ";
@@ -12,7 +12,7 @@ public class ListToArray {
 public ListToArray(String name,int rollnum){
     this.name=name;
     this.rollnum=rollnum;
-    
+  
 }
 
 public String toString() {
@@ -25,7 +25,6 @@ public void convertToList(){
     ListToArray ls4=new ListToArray("rahul",4);
     ListToArray ls5=new ListToArray("sumit",5);
     ListToArray ls6=new ListToArray("anup",6);
-    
     ListToArray[] myarray= {ls1,ls2,ls3,ls4,ls5,ls6};
     ArrayList<ListToArray>ls=new ArrayList<ListToArray>(Arrays.asList(myarray));
     int start=2;
@@ -41,9 +40,6 @@ public void convertToList(){
       for(Object object1:subls) {
           System.out.println(object1.toString());
           
-      }
-    
-   
-    
-} 
+      }  
+    } 
 }

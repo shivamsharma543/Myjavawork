@@ -1,6 +1,6 @@
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+
 
 
 public class MainCalling {
@@ -15,6 +15,10 @@ public class MainCalling {
 		add.addElemant(list,15);
 		add.addElemant(list,20);
 		add.addElemant(list,25);
+		MyAbstractChild myabstractchild= new MyAbstractChild();
+		myabstractchild.print1();
+		
+		
 		
 
 	}
