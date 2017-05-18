@@ -1,14 +1,11 @@
-
 public class MyAbstractChild extends MyAbstract {
+	int i = 5;
 
-	@Override
 	void print1() {
 		// TODO Auto-generated method stub
-		int i=5;
-		System.out.println("Number value is"+i);
+
+		System.out.println("Number value is" + i);
 	}
-	
-	
-	
+
 
 }

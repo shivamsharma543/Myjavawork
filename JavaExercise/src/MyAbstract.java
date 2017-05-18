@@ -1,12 +1,8 @@
+public abstract class MyAbstract {
 
-   public abstract class  MyAbstract  {
-	
-	MyAbstractChild myobj=new MyAbstractChild();   
 	public MyAbstract() {
-		myobj.print1();
+		print1();
 	}
 	abstract void print1();
- }
 
- 
-   
+}
