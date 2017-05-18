@@ -7,5 +7,4 @@ public class MyAbstractChild extends MyAbstract {
 		System.out.println("Number value is" + i);
 	}
 
-
 }
