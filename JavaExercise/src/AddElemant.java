@@ -1,21 +1,22 @@
-import java.util.Iterator;
+
 import java.util.List;
 
 public class AddElemant {
 
-	public void addElemant(List<Integer>ls,int number) {
-	   int size=0;       
-	   size=ls.size();
-	   ls.add(size/2, number);
-	   Iterator<Integer> iterator=ls.iterator();
-	   while(iterator.hasNext()) {
-			System.out.println(iterator.next());
-	}
-	
-	   
-	
-}
-	
-	
-}
+	public List<Integer> addElemant(List<Integer> ls, int number) {
+		int size;
+		int addingposition;
+		size = ls.size();
+		// System.out.println(size);
 
+		if (size % 2 != 0)
+			addingposition = size / 2 + 1;
+		else
+			addingposition = size / 2;
+
+		ls.add(addingposition, number);
+		return ls;
+
+	}
+
+}
